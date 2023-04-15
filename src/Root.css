@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(./assets/font/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'poppins medium';
+    src: url(./assets/font/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url(./assets/font/Sen/Sen-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter regular';
+    src: url(./assets/font/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'inter medium';
+    src: url(./assets/font/Inter/static/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'inter semiBold';
+    src: url(./assets/font/Inter/static/Inter-SemiBold.ttf);
+}
+
+:root {
+    /* font size */
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-reg: 17px;
+    --fs-lg: 20px;
+    --fs-4xl: 30px;
+    --fs-5xl: 40px;
+    --fs-6xl: 50px;
+
+    /* font color */
+    --fc-primary: #2D3134;
+    --fc-secondary: #5B5F62;
+    --fc-body-secondary: #939597;
+    --fc-navbar: #2E476B;
+    --fc-orange: #F66F4D;
+    --fc-footer: #676A6C;
+    --fc-white: #FFFFFF;
+
+    /* font family */
+    --ff-PoppinsReg: 'Poppins Regular';
+    --ff-PoppinsMed: 'poppins medium';
+    --ff-Sen: 'Sen';
+    --ff-interReg: 'Inter regular';
+    --ff-interMed: 'inter medium';
+    --ff-interSemiBold: 'inter semiBold';
+
+}
+
+/* font family */
+.ff_poppinsReg {
+    font-family: var(--ff-PoppinsReg);
+}
+
+.ff_poppinsMed {
+    font-family: var(--ff-PoppinsMed);
+}
+
+.ff_Sen {
+    font-family: var(--ff-Sen);
+}
+
+.ff_InterReg {
+    font-family: var(--ff-interReg);
+}
+
+.ff_InterMed {
+    font-family: var(--ff-interMed);
+}
+
+.ff_interSemiBold {
+    font-family: var(--ff-interSemiBold);
+}
+
+/* font color */
+.fc_black {
+    color: var(--fc-primary);
+}
+
+.fc_grey {
+    color: var(--fc-secondary);
+}
+
+.fc_lightGrey {
+    color: var(--fc-body-secondary);
+}
+
+.fc_blue {
+    color: var(--fc-navbar);
+}
+
+.fc_orange {
+    color: var(--fc-orange);
+}
+
+.fc_light {
+    color: var(--fc-footer);
+}
+
+.fc_white {
+    color: var(--fc-white);
+}
+
+/* font size */
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_reg {
+    font-size: var(--fs-reg);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+
+@media (min-width:768px) {
+    :root {
+        /* font size */
+        --fs-xl: 18px;
+        --fs-xxl: 19px;
+        --fs-3xl: 20px;
+        --fs-4xl: 40px;
+        --fs-5xl: 45px;
+        --fs-6xl: 70px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-xxl: 22px;
+        --fs-3xl: 24px;
+        --fs-4xl: 42px;
+        --fs-5xl: 45px;
+        --fs-6xl: 75px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --fs-xsm: 12px;
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-reg: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 21px;
+        --fs-xxl: 24px;
+        --fs-3xl: 26px;
+        --fs-4xl: 46px;
+        --fs-5xl: 56px;
+        --fs-6xl: 84px;
+    }
+}
