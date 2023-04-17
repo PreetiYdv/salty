@@ -18,11 +18,11 @@ function Top_destinations() {
           Sost Brilliant reasons Entrada should be your one-stop-shop!
         </p>
         <div className="d-flex align-items-center justify-content-center gap-3 flex-wrap">
-          <Button text="London" />
-          <Button text="Bangkok" />
-          <Button text="England" />
-          <Button text="Singapore" />
-          <Button text="Italy" />
+          <Button text="London" fontFamily="ff_poppinsReg" />
+          <Button text="Bangkok" fontFamily="ff_poppinsReg" />
+          <Button text="England" fontFamily="ff_poppinsReg" />
+          <Button text="Singapore" fontFamily="ff_poppinsReg" />
+          <Button text="Italy" fontFamily="ff_poppinsReg" />
         </div>
         <div className="grid_container mt-5">
           <div className="grid_item grid_item1">

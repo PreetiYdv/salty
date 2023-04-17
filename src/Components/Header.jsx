@@ -2,7 +2,7 @@ import React from "react";
 import header_img from "../assets/images//png/header_img.png";
 import location_icon from "../assets/images/png/location_icon.png";
 import calender_icon from "../assets/images/png/calender_icon.png";
-import magnifying_icon from "../assets/images/png/magnifying_Icon.png"
+import magnifying_icon from "../assets/images/png/magnifying_Icon.png";
 
 function Header() {
   return (
@@ -17,27 +17,31 @@ function Header() {
               Plan and book your perfect trip with expert advice, travel tips,
               destination information and inspiration from us.
             </p>
-            <div className="box d-flex flex_sm_column justify-content-between align-items-center mt-5">
-              <div className="border_right">
-                <h3 className=" fs_reg mb-1">Where</h3>
-                <div className="d-flex align-items-center gap-4 pb_20">
-                  <p className="mb-0 fs_xsm">Center Point, Lo...</p>
-                  <img src={location_icon} alt="" />
+            <div className="box d-flex justify-content-sm-between justify-content-evenly align-items-center mt-5">
+              <div className="d-flex flex_sm_column">
+                <div className="border_right">
+                  <h3 className=" fs_reg mb-1 ff_InterMed">Where</h3>
+                  <div className="d-flex align-items-center gap-4 pb_20">
+                    <p className="mb-0 fs_xsm ff_InterReg">
+                      Center Point, Lo...
+                    </p>
+                    <img src={location_icon} alt="" />
+                  </div>
+                </div>
+                <div className="ps-0 ps-sm-4">
+                  <h3 className=" fs_reg mb-1 ff_InterMed">Date</h3>
+                  <div className="d-flex align-items-center gap-4 pb_20">
+                    <p className="mb-0 fs_xsm ff_InterReg">09th March,2021</p>
+                    <img src={calender_icon} alt="" />
+                  </div>
                 </div>
               </div>
               <div>
-                <h3 className=" fs_reg mb-1">Date</h3>
-                <div className="d-flex align-items-center gap-4 pb_20">
-                  <p className="mb-0 fs_xsm">09th March,2021</p>
-                  <img src={calender_icon} alt="" />
-                </div>
-              </div>
-              <div>
-                <img src={magnifying_icon} alt="" />
+                <img src={magnifying_icon} alt="" className="cursor_pointer" />
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 pt-5">
+          <div className="col-12 col-lg-6 pt-lg-5">
             <img src={header_img} alt="" className=" w-100" />
           </div>
         </div>

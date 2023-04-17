@@ -36,7 +36,7 @@
     --fs-reg: 17px;
     --fs-lg: 20px;
     --fs-4xl: 30px;
-    --fs-5xl: 40px;
+    --fs-5xl: 35px;
     --fs-6xl: 50px;
 
     /* font color */
@@ -164,7 +164,7 @@
         --fs-xl: 18px;
         --fs-xxl: 19px;
         --fs-3xl: 20px;
-        --fs-4xl: 40px;
+        --fs-4xl: 35px;
         --fs-5xl: 45px;
         --fs-6xl: 70px;
     }
@@ -174,7 +174,7 @@
     :root {
         --fs-xxl: 22px;
         --fs-3xl: 24px;
-        --fs-4xl: 42px;
+        --fs-4xl: 40px;
         --fs-5xl: 45px;
         --fs-6xl: 75px;
     }

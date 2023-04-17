@@ -22,7 +22,7 @@ function AboutUs() {
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <img src={camera_boy} alt="" className="w-100 mw_400 pe-md-5" />
           </div>
-          <div className="col-12 col-lg-6 pt-5 d-flex flex-column justify-content-center align-items-center">
+          <div className="col-12 col-lg-6 pt-5 d-flex flex-column justify-content-center align-items-lg-start align-items-center">
             <h2 className=" fs_5xl fc_black mw_467 pb-4 ff_interSemiBold">
               <span className="line"> A </span>Customer Said About Us:
             </h2>

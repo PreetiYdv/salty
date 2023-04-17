@@ -58,7 +58,7 @@ function Destination() {
   return (
     <>
       <div className="container pt-5 mt-5">
-        <div className="d-flex flex-wrap  justify-content-between align-items-center">
+        <div className="d-flex justify-content-between align-items-center">
           <h2 className="mw_400 ff_interSemiBold fs_5xl fc_black">
             Find Popular Destination
           </h2>
@@ -108,62 +108,72 @@ function Destination() {
       </div>
       <div className="ps-0 ps-lg-5">
         <Slider ref={myBtn} {...settings}>
-          <div className="card">
-            <img src={mountain_hiking} alt="" className="w-100" />
-            <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
-              Mountain Hiking Tour
-            </h3>
-            <p className="ff_InterReg fs_sm fc_grey ps-2">
-              Mountain Hiking Tour
-            </p>
-            <div className="d-flex justify-content-between align-items-center ps-2">
-              <p className="mb-0 fs_xxl ff_interSemiBold">
-                $89 <span className=" fc_grey"> /Person</span>
+          <div className="card_parent">
+            <div className="card">
+              <img src={mountain_hiking} alt="" className="w-100" />
+              <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
+                Mountain Hiking Tour
+              </h3>
+              <p className="ff_InterReg fs_sm fc_grey ps-2">
+                Mountain Hiking Tour
               </p>
-              <Button text="Book Now" />
+              <div className="d-flex justify-content-between align-items-center ps-2">
+                <p className="mb-0 fs_xxl ff_interSemiBold">
+                  $89 <span className=" fc_grey"> /Person</span>
+                </p>
+                <Button text="Book Now" fontFamily="ff_InterReg" />
+              </div>
             </div>
           </div>
-          <div className="card">
-            <img src={peru} alt="" className="w-100" />
-            <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
-              Machu Picchu, Peru
-            </h3>
-            <p className="ff_InterReg fs_sm fc_grey ps-2">Machu Picchu, Peru</p>
-            <div className="d-flex justify-content-between align-items-center ps-2">
-              <p className="mb-0 fs_xxl ff_interSemiBold">
-                $99 <span className=" fc_grey"> /Person</span>
+          <div className="card_parent">
+            <div className="card">
+              <img src={peru} alt="" className="w-100" />
+              <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
+                Machu Picchu, Peru
+              </h3>
+              <p className="ff_InterReg fs_sm fc_grey ps-2">
+                Machu Picchu, Peru
               </p>
-              <Button text="Book Now" />
+              <div className="d-flex justify-content-between align-items-center ps-2">
+                <p className="mb-0 fs_xxl ff_interSemiBold">
+                  $99 <span className=" fc_grey"> /Person</span>
+                </p>
+                <Button text="Book Now" fontFamily="ff_InterReg" />
+              </div>
             </div>
           </div>
-          <div className="card">
-            <img src={arizona} alt="" className="w-100" />
-            <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
-              The Grand Canyon, Arizona
-            </h3>
-            <p className="ff_InterReg fs_sm fc_grey ps-2">
-              Mountain Hiking Tour
-            </p>
-            <div className="d-flex justify-content-between align-items-center ps-2">
-              <p className="mb-0 fs_xxl ff_interSemiBold">
-                $70 <span className=" fc_grey"> /Person</span>
+          <div className="card_parent">
+            <div className="card">
+              <img src={arizona} alt="" className="w-100" />
+              <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
+                The Grand Canyon, Arizona
+              </h3>
+              <p className="ff_InterReg fs_sm fc_grey ps-2">
+                Mountain Hiking Tour
               </p>
-              <Button text="Book Now" />
+              <div className="d-flex justify-content-between align-items-center ps-2">
+                <p className="mb-0 fs_xxl ff_interSemiBold">
+                  $70 <span className=" fc_grey"> /Person</span>
+                </p>
+                <Button text="Book Now" fontFamily="ff_InterReg" />
+              </div>
             </div>
           </div>
-          <div className="card">
-            <img src={mountain_hiking} alt="" className="w-100" />
-            <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
-              Mountain Hiking Tour
-            </h3>
-            <p className="ff_InterReg fs_sm fc_grey ps-2">
-              Mountain Hiking Tour
-            </p>
-            <div className="d-flex justify-content-between align-items-center ps-2">
-              <p className="mb-0 fs_xxl ff_interSemiBold">
-                $89 <span className=" fc_grey"> /Person</span>
+          <div className="card_parent">
+            <div className="card">
+              <img src={mountain_hiking} alt="" className="w-100" />
+              <h3 className=" ff_interSemiBold fc_black fs_xxl pt-3 ps-2">
+                Mountain Hiking Tour
+              </h3>
+              <p className="ff_InterReg fs_sm fc_grey ps-2">
+                Mountain Hiking Tour
               </p>
-              <Button text="Book Now" />
+              <div className="d-flex justify-content-between align-items-center ps-2">
+                <p className="mb-0 fs_xxl ff_interSemiBold">
+                  $89 <span className=" fc_grey"> /Person</span>
+                </p>
+                <Button text="Book Now" fontFamily="ff_InterReg" />
+              </div>
             </div>
           </div>
         </Slider>

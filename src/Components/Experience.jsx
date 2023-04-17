@@ -9,12 +9,12 @@ function Experience() {
           <div className="col-12 col-lg-6 pe-3">
             <img src={boy_with_camera} alt="" className="w-100" />
           </div>
-          <div className="col-12 col-lg-6 pt-5 ps-md-5 pe-md-5 ">
-            <p className=" fc_orange fs_lg ff_interSemiBold text-center text-md-start">Our Experience</p>
-            <h2 className=" fc_black ff_interSemiBold fs_5xl pb-2 text-center text-md-start">
+          <div className="col-12 col-lg-6 ps-md-5 pe-md-5 ">
+            <p className=" fc_orange fs_lg ff_interSemiBold text-center text-lg-start">Our Experience</p>
+            <h2 className=" fc_black ff_interSemiBold fs_5xl pb-2 text-center text-lg-start">
               Our Stories Have Adventures
             </h2>
-            <p className="ff_InterReg fc_grey fs_md pb-3 text-center text-md-start">
+            <p className="ff_InterReg fc_grey fs_md pb-3 text-center text-lg-start">
               We are experienced in bringing adventures to stay their journey,
               with all outdoor destinations in the world as our specialties.
               Start your adventure now! Nature has already called you!

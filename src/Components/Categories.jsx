@@ -61,7 +61,7 @@ function Categories() {
     <>
       <div className="container pt-5">
         <div className="d-flex flex-wrap justify-content-between justify-co ntent-center align-items-center pt-5">
-          <h3 className=" fc_black fs_5xl ff_interSemiBold mb-0 pb-4 pb-sm-0">Categories</h3>
+          <h3 className=" fc_black fs_5xl ff_interSemiBold mb-0">Categories</h3>
           <Arrows />
         </div>
         <p className="mw_370 ff_InterReg fs_md fc_grey py-4 text-center text-sm-start">
@@ -73,7 +73,7 @@ function Categories() {
             <div className="image_overlay">
               <img src={beach} alt="" />
               <div className="text-adjust-shadow d-flex align-items-center justify-content-center">
-                <p className=" fc_white">Visite</p>
+                <p className=" fc_white ff_interSemiBold fs_lg">Visite</p>
               </div>
             </div>
             <p className=" fc_black fs_3xl ff_InterMed pt-3">Beach</p>
@@ -82,7 +82,7 @@ function Categories() {
             <div className="image_overlay">
               <img src={desert} alt="" />
               <div className="text-adjust-shadow d-flex align-items-center justify-content-center">
-                <p className=" fc_white">Visite</p>
+                <p className=" fc_white ff_interSemiBold fs_lg">Visite</p>
               </div>
             </div>
             <p className=" fc_black fs_3xl ff_InterMed pt-3">Desert</p>
@@ -91,7 +91,7 @@ function Categories() {
             <div className="image_overlay">
               <img src={mountain} alt="" />
               <div className="text-adjust-shadow d-flex align-items-center justify-content-center">
-                <p className=" fc_white">Visite</p>
+                <p className=" fc_white ff_interSemiBold fs_lg">Visite</p>
               </div>
             </div>
             <p className=" fc_black fs_3xl ff_InterMed pt-3">Mountain</p>
@@ -100,7 +100,7 @@ function Categories() {
             <div className="image_overlay">
               <img src={temple} alt="" />
               <div className="text-adjust-shadow d-flex align-items-center justify-content-center">
-                <p className=" fc_white">Visite</p>
+                <p className=" fc_white ff_interSemiBold fs_lg">Visite</p>
               </div>
             </div>
             <p className=" fc_black fs_3xl ff_InterMed pt-3">Temple</p>
@@ -109,7 +109,7 @@ function Categories() {
             <div className="image_overlay">
               <img src={tower} alt="" />
               <div className="text-adjust-shadow d-flex align-items-center justify-content-center">
-                <p className=" fc_white">Visite</p>
+                <p className=" fc_white ff_interSemiBold fs_lg">Visite</p>
               </div>
             </div>
             <p className=" fc_black fs_3xl ff_InterMed pt-3">Tower</p>
@@ -118,7 +118,7 @@ function Categories() {
             <div className="image_overlay">
               <img src={Pyramid} alt="" />
               <div className="text-adjust-shadow d-flex align-items-center justify-content-center">
-                <p className=" fc_white">Visite</p>
+                <p className=" fc_white ff_interSemiBold fs_lg">Visite</p>
               </div>
             </div>
             <p className=" fc_black fs_3xl ff_InterMed pt-3">Pyramid</p>

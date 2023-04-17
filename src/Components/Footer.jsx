@@ -14,7 +14,7 @@ function Footer() {
             <p className="pt-4 fs_md fc_grey">
               Enjoy the touring with <br /> Salty
             </p>
-            <div className="d-flex gap-3 pt-4">
+            <div className="d-flex gap-3 py-3">
               <div className="circle">
                 <svg
                   width="6"
@@ -64,88 +64,88 @@ function Footer() {
           <div className="col-12 col-lg-8 pt-5 pt-lg-0">
             <div class="row">
               <div class="col-6 col-md-3">
-                <h2 class="fc_primary fs_xxl mb-3">Resources</h2>
+                <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Resources</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Download
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Help Center
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Guide Book
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Virginia
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     App Directory
                   </a>
                 </p>
               </div>
               <div class="col-6 col-md-3">
-                <h2 class="fc_primary fs_xxl mb-3">Travellers</h2>
+                <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Travellers</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Why Travellers
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Enterprice
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Customer Stories
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Instagram post
                   </a>
                 </p>
               </div>
               <div class="col-6 col-md-3">
-                <h2 class="fc_primary fs_xxl mb-3">Company</h2>
+                <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Company</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Travelling
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     About Locato
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Success
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Information
                   </a>
                 </p>
               </div>
               <div class="col-6 col-md-3">
-                <h2 class="fc_primary fs_xxl mb-3">Get App</h2>
+                <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Get App</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     App Store
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none" href="#">
+                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
                     Google Play Store
                   </a>
                 </p>
