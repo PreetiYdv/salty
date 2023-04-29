@@ -5,7 +5,7 @@ import intersect from "../assets/images/png/Intersect.png";
 function SignUp() {
   return (
     <>
-      <div className="container position-relative  my-5">
+      <div className="container myContainer position-relative py-5  mb-5">
         <div className="bg-color py-5">
           <img
             src={intersect}

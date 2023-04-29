@@ -1,17 +1,16 @@
 import React from "react";
-import logo from "../assets/images/png/logo.png";
+import logo from "../assets/images/svg/logo.svg";
 
 function Footer() {
   return (
     <>
-      <div className="container py-5">
+      <div className="container myContainer py-5 mt-5">
         <div className="row">
           <div className="col-12 col-lg-4">
-            <div className="d-flex align-items-center gap-2">
+            <div>
               <img src={logo} alt="" />
-              <h3 className="ff_Sen fs_lg fc_black mb-0">Salty</h3>
             </div>
-            <p className="pt-4 fs_md fc_grey">
+            <p className="pt-4 fs_md fc_grey ff_InterReg">
               Enjoy the touring with <br /> Salty
             </p>
             <div className="d-flex gap-3 py-3">
@@ -66,27 +65,34 @@ function Footer() {
               <div class="col-6 col-md-3">
                 <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Resources</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Download
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Help Center
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Guide Book
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
-                    Virginia
-                  </a>
-                </p>
-                <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     App Directory
                   </a>
                 </p>
@@ -94,22 +100,34 @@ function Footer() {
               <div class="col-6 col-md-3">
                 <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Travellers</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Why Travellers
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Enterprice
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Customer Stories
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Instagram post
                   </a>
                 </p>
@@ -117,22 +135,34 @@ function Footer() {
               <div class="col-6 col-md-3">
                 <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Company</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Travelling
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     About Locato
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Success
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Information
                   </a>
                 </p>
@@ -140,12 +170,18 @@ function Footer() {
               <div class="col-6 col-md-3">
                 <h2 class="fc_primary fs_reg mb-3 ff_InterMed">Get App</h2>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     App Store
                   </a>
                 </p>
                 <p>
-                  <a class="fc_light fs_sm text-decoration-none ff_InterReg" href="#">
+                  <a
+                    class="fc_light fs_sm text-decoration-none ff_InterReg"
+                    href="#"
+                  >
                     Google Play Store
                   </a>
                 </p>

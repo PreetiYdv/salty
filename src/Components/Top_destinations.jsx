@@ -10,7 +10,7 @@ import tower2 from "../assets/images/png/tower2.png";
 function Top_destinations() {
   return (
     <div>
-      <div className="container py-5">
+      <div className="container myContainer py-5">
         <h2 className=" text-center fc_black fs_5xl ff_interSemiBold">
           Top Destinations
         </h2>
@@ -29,7 +29,7 @@ function Top_destinations() {
             <img src={veitnam1} alt="" />
             <div class="overlay">
               <div className="d-flex flex-column justify-content-between align-items-start h-100 w-100 p-4 text">
-                <div className="rating">3.5</div>
+                <div className="rating bg_color_white fc_black">3.5</div>
                 <div>
                   <h3 className="fc_white ff_interSemiBold fs_lg">Vientam</h3>
                   <p className="fc_white ff_InterReg fs_sm">Worefall</p>
@@ -41,7 +41,7 @@ function Top_destinations() {
             <img src={veitnam2} alt="" />
             <div class="overlay">
               <div className="d-flex flex-column justify-content-between align-items-start h-100 w-100 p-4 text">
-                <div className="rating">3.5</div>
+                <div className="rating bg_color_white fc_black">3.5</div>
                 <div>
                   <h3 className="fc_white ff_interSemiBold fs_lg">Vientam</h3>
                   <p className="fc_white ff_InterReg fs_sm">Worefall</p>

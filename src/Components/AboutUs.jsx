@@ -10,6 +10,7 @@ function AboutUs() {
   var settings = {
     dots: false,
     infinite: true,
+    fade: true,
     arrows: false,
     speed: 500,
     slidesToShow: 1,
@@ -17,7 +18,7 @@ function AboutUs() {
   };
   return (
     <>
-      <div className="container py-5 my-5">
+      <div className="container myContainer py-5 my-5">
         <div className="row">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <img src={camera_boy} alt="" className="w-100 mw_400 pe-md-5" />
@@ -49,10 +50,10 @@ function AboutUs() {
                 </div>
                 <div className="slider_content">
                   <p className="ff_InterReg fs_reg fc_grey pb-4">
-                    Salty helped me a lot in finding the best place for our
-                    first outdoor adventure trip. They responded very quickly
-                    and gave me a detailed account of the place—its history, as
-                    well as its best features.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate, dolorum iure ullam consequuntur sequi placeat
+                    nulla consequatur. Voluptatem maiores quae perspiciatis
+                    aperiam iusto expedita molestia
                   </p>
                   <img src={stars} alt="" />
                   <div className="d-flex justify-content-between pt-2">

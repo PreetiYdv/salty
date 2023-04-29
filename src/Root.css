@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: 'poppins semiBold';
+    src: url(./assets/font/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
     font-family: 'Sen';
     src: url(./assets/font/Sen/Sen-Bold.ttf);
 }
@@ -31,13 +36,13 @@
 :root {
     /* font size */
     --fs-xsm: 12px;
-    --fs-sm: 14px;
-    --fs-md: 16px;
-    --fs-reg: 17px;
+    --fs-sm: 13px;
+    --fs-md: 14px;
+    --fs-reg: 15px;
     --fs-lg: 20px;
     --fs-4xl: 30px;
     --fs-5xl: 35px;
-    --fs-6xl: 50px;
+    --fs-6xl: 42px;
 
     /* font color */
     --fc-primary: #2D3134;
@@ -51,6 +56,7 @@
     /* font family */
     --ff-PoppinsReg: 'Poppins Regular';
     --ff-PoppinsMed: 'poppins medium';
+    --ff-poppinsSemiBold: 'poppins semiBold';
     --ff-Sen: 'Sen';
     --ff-interReg: 'Inter regular';
     --ff-interMed: 'inter medium';
@@ -63,8 +69,16 @@
     font-family: var(--ff-PoppinsReg);
 }
 
+#ff_poppinsReg {
+    font-family: var(--ff-PoppinsReg);
+}
+
 .ff_poppinsMed {
     font-family: var(--ff-PoppinsMed);
+}
+
+.ff_poppinsSemiBold {
+    font-family: var(--ff-poppinsSemiBold);
 }
 
 .ff_Sen {
@@ -72,6 +86,10 @@
 }
 
 .ff_InterReg {
+    font-family: var(--ff-interReg);
+}
+
+#ff_InterReg {
     font-family: var(--ff-interReg);
 }
 
@@ -172,6 +190,12 @@
 
 @media (min-width:992px) {
     :root {
+        --fs-xsm: 12px;
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-reg: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 21px;
         --fs-xxl: 22px;
         --fs-3xl: 24px;
         --fs-4xl: 40px;

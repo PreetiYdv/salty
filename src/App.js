@@ -16,16 +16,21 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
-      <div style={{ backgroundColor: "#FAF8ED" }}>
-        <Navbar />
-        <Header />
+      <div className="overflow-hidden" style={{ backgroundColor: "#FAF8ED" }}>
+        <div className="d-flex min_vh100 flex-column">
+          <Navbar />
+          <div className="flex-grow-1 d-flex align-items-center justify-content-center">
+            <Header />
+          </div>
+        </div>
+
         <Categories />
         <Experience />
         <Destination />
         <Top_destinations />
         <AboutUs />
         <SignUp />
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

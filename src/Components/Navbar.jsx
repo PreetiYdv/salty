@@ -1,16 +1,15 @@
 import { logDOM } from "@testing-library/react";
 import React from "react";
-import logo from "../assets/images/png/logo.png";
+import logo from "../assets/images/svg/logo.svg";
 import btn_plane from "../assets/images/png/btn_plane.png";
 
 function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg ">
-        <div className="container pt-4">
-          <a class="d-lg-none navbar-brand fc_black fs_lg ff_Sen" href="#">
+        <div className="container myContainer pt-4">
+          <a class="d-lg-none navbar-brand" href="#">
             <img src={logo} alt="" className="pe-2" />
-            Salty
           </a>
           <button
             class="navbar-toggler"
@@ -37,10 +36,9 @@ function Navbar() {
               ></button>
             </div>
             <div className="d-flex justify-content-between align-items-center">
-              <div className=" d-flex gap-4">
-                <a href="#" className="navbar-brand fc_black fs_lg ff_Sen">
+              <div className=" d-flex gap-3">
+                <a href="#" className="navbar-brand">
                   <img src={logo} alt="" className="pe-2" />
-                  Salty
                 </a>
                 <ul className="navbar-nav mb-0 gap-4 d-flex align-items-center">
                   <li class="nav-item">
@@ -72,7 +70,7 @@ function Navbar() {
               </div>
               <button className="bookNow_btn">
                 <div className="d-flex align-items-center gap-2">
-                  <p className=" fs_sm mb-0 fc_orange ff_poppinsMed">
+                  <p className=" fs_md lh-1 mb-0 fc_orange ff_poppinsMed">
                     Book Now
                   </p>
                   <img src={btn_plane} alt="" />
